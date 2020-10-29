@@ -1,0 +1,21 @@
+{
+    "states": [
+        {
+            "id": "q1",
+            "transition_functions": {
+                "1": "q1",
+                "0": "q2"
+            },
+            "accepting": false
+        },
+        {
+            "id": "q2",
+            "transition_functions": {
+                "1": "q1",
+                "0": "q2"
+            },
+            "accepting": true
+        }
+    ],
+    "initial_state": "q1"
+}
